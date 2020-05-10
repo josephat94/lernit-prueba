@@ -19,10 +19,5 @@ para correr el proyecto solo corra el comando
 npm run dev
 ```
 
-## Demo
-Puede consultar un demo online en la siguiente direccion
-
-[DEMO ONLINE](https://choosealicense.com/licenses/mit/)
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

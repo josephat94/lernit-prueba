@@ -3,8 +3,6 @@ import { createContext, useState, useEffect } from "react";
 import * as firebase from 'firebase/app'
 import "firebase/auth";
 import app from "../../lib/firebase";
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-console.log(process.env.API_KEY)
 
 
 

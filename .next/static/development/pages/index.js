@@ -17,7 +17,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var firebase_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(firebase_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/auth */ "./node_modules/firebase/auth/dist/index.esm.js");
 /* harmony import */ var _lib_firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/firebase */ "./lib/firebase.js");
-/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! mdbreact */ "./node_modules/mdbreact/dist/mdbreact.esm.js");
 var _this = undefined,
     _jsxFileName = "/Users/josephatreyes/Documents/GitHub/lernit-prueba/components/auth/auth.js";
 
@@ -27,8 +26,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-console.log("AIzaSyA1xyDAL6iWSjKcivagsPkvdGKRalEEdRU");
 var AuthContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
 var AuthProvider = function AuthProvider(props) {
   var children = props.children;
@@ -47,7 +44,7 @@ var AuthProvider = function AuthProvider(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 9
     }
   }, children);
@@ -72312,6 +72309,7 @@ var Login = function Login(props) {
       columnNumber: 17
     }
   }, "Mejora tu experiencia de aprendizaje")), __jsx("form", {
+    autoComplete: "off",
     ref: formRef,
     style: {
       width: "100%",
@@ -72338,7 +72336,7 @@ var Login = function Login(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 139,
       columnNumber: 17
     }
   }), formik.errors.email ? __jsx("div", {
@@ -72346,14 +72344,14 @@ var Login = function Login(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140,
+      lineNumber: 143,
       columnNumber: 40
     }
   }, formik.errors.email) : null, __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 145,
       columnNumber: 17
     }
   }), __jsx("input", {
@@ -72369,7 +72367,7 @@ var Login = function Login(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 147,
       columnNumber: 17
     }
   }), formik.errors.password && __jsx("div", {
@@ -72377,28 +72375,28 @@ var Login = function Login(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 152,
       columnNumber: 44
     }
   }, formik.errors.password), __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
-      columnNumber: 17
-    }
-  }), __jsx("br", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 153,
-      columnNumber: 17
-    }
-  }), __jsx("br", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 154,
+      columnNumber: 17
+    }
+  }), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 156,
+      columnNumber: 17
+    }
+  }), __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157,
       columnNumber: 17
     }
   }), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_5__["MDBBtn"], {
@@ -72410,7 +72408,7 @@ var Login = function Login(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 161,
       columnNumber: 17
     }
   }, "Iniciar Sesi\xF3n"), __jsx(mdbreact__WEBPACK_IMPORTED_MODULE_5__["MDBBtn"], {
@@ -72423,7 +72421,7 @@ var Login = function Login(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 163,
       columnNumber: 17
     }
   }, "Crear Cuenta")));

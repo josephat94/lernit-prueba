@@ -131,7 +131,10 @@ const Login = props => {
                     Mejora tu experiencia de aprendizaje
                 </p>
             </div>
-            <form ref={formRef} style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom:"100px" }} onSubmit={formik.handleSubmit}>
+            <form 
+           autoComplete="off"
+            ref={formRef} 
+            style={{ width: "100%", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", marginBottom:"100px" }} onSubmit={formik.handleSubmit}>
 
                 <input
                     value={formik.values.email}

@@ -111,8 +111,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! firebase/auth */ "firebase/auth");
 /* harmony import */ var firebase_auth__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(firebase_auth__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _lib_firebase__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../lib/firebase */ "./lib/firebase.js");
-/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! mdbreact */ "mdbreact");
-/* harmony import */ var mdbreact__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(mdbreact__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "/Users/josephatreyes/Documents/GitHub/lernit-prueba/components/auth/auth.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -120,8 +118,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-console.log("AIzaSyA1xyDAL6iWSjKcivagsPkvdGKRalEEdRU");
 const AuthContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
 const AuthProvider = props => {
   const {
@@ -141,7 +137,7 @@ const AuthProvider = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 18,
       columnNumber: 9
     }
   }, children);
@@ -349,17 +345,6 @@ module.exports = require("firebase/auth");
 /***/ (function(module, exports) {
 
 module.exports = require("firebase/database");
-
-/***/ }),
-
-/***/ "mdbreact":
-/*!***************************!*\
-  !*** external "mdbreact" ***!
-  \***************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("mdbreact");
 
 /***/ }),
 
